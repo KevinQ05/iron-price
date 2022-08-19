@@ -33,6 +33,12 @@ const UserSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+
+  // Custom functionality (SPLITS)
+  splits: {
+    type: [mongoose.Schema.Types.ObjectId],
+    ref: "Split",
+  },
 });
 
 // Encrypt password using bcrypt
