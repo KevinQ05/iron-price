@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 81bebb333d8e6c3986aab348d622f5942013a98b
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@fontsource/roboto": "^4.5.8",
     "@mui/material": "^5.10.1",
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6446517c9782a5c489cfdfb20a117561017cfe45
+>>>>>>> 81bebb333d8e6c3986aab348d622f5942013a98b
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
