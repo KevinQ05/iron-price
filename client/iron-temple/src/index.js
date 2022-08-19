@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+<<<<<<< HEAD
 import "@fontsource/roboto";
+=======
+>>>>>>> 6446517c9782a5c489cfdfb20a117561017cfe45
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
