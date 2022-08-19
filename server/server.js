@@ -14,6 +14,7 @@ connectDB();
 
 //Route files
 const auth = require("./routes/auth");
+const excercises = require("./routes/excercises");
 
 const app = express();
 
@@ -30,6 +31,7 @@ if (process.env.NODE_ENV === "development") {
 
 //Mount routers
 app.use("/api/v1/auth", auth);
+app.use("/api/v1/user", excercises);
 
 app.use(errorHandler);
 
